@@ -1,7 +1,13 @@
-EnsembleLSTM_Pytorch
+HAR_LSTMsEnsemble_Pytorch
 ==============================
 
-Ensemble of LSTM models for Human Activity Recognition
+This repository includes the Pytorch implementation of the paper "Ensembles of Deep LSTM Learners for Activity Recognition using Wearables" by Yu Guan and Thomas Plötz, which is available at: https://doi.org/10.1145/3090076
+
+The authors' original implementation is in Tensorflow and is available at: https://github.com/tploetz/LSTMEnsemble4HAR
+
+To run the code, open up "1.0-dsp-LSTMsEnsemble.ipynb" jupyter notebook under notebooks folder and follow the step by step instructions.
+
+Python version: python3
 
 Project Organization
 ------------
