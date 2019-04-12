@@ -5,6 +5,8 @@ This repository includes the Pytorch implementation of the paper "Ensembles of D
 
 The authors' original implementation is in Tensorflow and is available at: https://github.com/tploetz/LSTMEnsemble4HAR
 
+To run the code, open up "1.0-dsp-LSTMsEnsemble.ipynb" jupyter notebook under notebooks folder and follow the step by step instructions.
+
 Python version: python3
 
 Project Organization
