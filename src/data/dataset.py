@@ -21,16 +21,8 @@ def loadingDB(fileDir, DB=79):
 		X_test = (X_test - mn_trn)/std_trn
 		print('normalising...X_train, X_valid, X_test... done')
 		y_train = data['trainingLabels'].reshape(-1)-1
-        #print("y_train shape", y_train.shape)
 		y_valid = data['valLabels'].reshape(-1)-1
-        #print("y_valid shape", y_valid.shape)
 		y_test = data['testingLabels'].reshape(-1)-1
-
-#		y_train = pd.get_dummies( y_train , prefix='labels')
-#		y_valid = pd.get_dummies( y_valid , prefix='labels' )
-#		y_test = pd.get_dummies( y_test , prefix='labels' )
-
-#		y_valid.insert(17, 'labels_17', 0, allow_duplicates=False)#as validation only has 17 lables
 		print('loading the 79-dim matData successfully . . .')
 
 	if DB==60:
@@ -43,10 +35,6 @@ def loadingDB(fileDir, DB=79):
 		y_train = data['y_train'].reshape(-1)
 		y_valid = data['y_valid'].reshape(-1)
 		y_test = data['y_test'].reshape(-1)
-#		y_train = pd.get_dummies( y_train , prefix='labels' )
-#		y_valid = pd.get_dummies( y_valid , prefix='labels' )
-#		y_test = pd.get_dummies( y_test , prefix='labels' )
-
 		print('the Skoda dataset was normalized to zero-mean, unit variance')
 		print('loading the 33HZ 60d matData successfully . . .')
 
@@ -60,14 +48,7 @@ def loadingDB(fileDir, DB=79):
 		y_train = data['y_train'].reshape(-1)
 		y_valid = data['y_valid'].reshape(-1)
 		y_test = data['y_test'].reshape(-1)
-
-#		y_train = pd.get_dummies( y_train , prefix='labels' )
-#		y_valid = pd.get_dummies( y_valid , prefix='labels' )
-#		y_test = pd.get_dummies( y_test , prefix='labels' )
-
 		print('binary classification problem . . . ')
-
-
 		print('the FOG dataset was normalized to zero-mean, unit variance')
 		print('loading the 32HZ FOG 9d matData successfully . . .')
 	
@@ -81,11 +62,6 @@ def loadingDB(fileDir, DB=79):
 		y_train = data['y_train'].reshape(-1)
 		y_valid = data['y_valid'].reshape(-1)
 		y_test = data['y_test'].reshape(-1)
-
-#		y_train = pd.get_dummies( y_train , prefix='labels' )
-#		y_valid = pd.get_dummies( y_valid , prefix='labels' )
-#		y_test = pd.get_dummies( y_test , prefix='labels' )
-		
 		print('the PAMAP2 dataset was normalized to zero-mean, unit variance')
 		print('loading the 33HZ PAMAP2 52d matData successfully . . .')
 	
