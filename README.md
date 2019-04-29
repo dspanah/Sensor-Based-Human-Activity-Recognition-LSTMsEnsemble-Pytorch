@@ -1,4 +1,4 @@
-HAR_LSTMsEnsemble_Pytorch
+Sensor-Based-Human-Activity-Recognition-LSTMsEnsemble-Pytorch
 ==============================
 
 This repository includes the Pytorch implementation of the paper "Ensembles of Deep LSTM Learners for Activity Recognition using Wearables" by Yu Guan and Thomas Plötz, which is available at: https://doi.org/10.1145/3090076
