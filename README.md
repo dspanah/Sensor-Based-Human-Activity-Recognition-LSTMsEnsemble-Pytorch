@@ -1,5 +1,4 @@
-Sensor-Based-Human-Activity-Recognition-LSTMsEnsemble-Pytorch
-==============================
+## Overview
 
 This repository includes the Pytorch implementation of the paper "Ensembles of Deep LSTM Learners for Activity Recognition using Wearables" by Yu Guan and Thomas Plötz, which is available at: https://doi.org/10.1145/3090076
 
@@ -7,7 +6,10 @@ You can find the authors' original implementation in tensorflow at: https://gith
 
 To run the code, open up "1.0-dsp-LSTMsEnsemble.ipynb" jupyter notebook under notebooks folder and follow the step by step instructions.
 
-Python version: python3
+## Dependencies
+
+- Python 3 <br/>
+- Pytorch
 
 Project Organization
 ------------
@@ -17,15 +19,10 @@ Project Organization
     ├── data     
     │   └── processed      <- The final, canonical data sets for modeling.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
     ├── models             <- Trained models
     │
     ├── notebooks          <- Jupyter notebooks. 
     │    └── 1.0-dsp-LSTMsEnsemble.ipynb  <-- Full Pipeline in a step by step manner                   
-    |
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
     │                       
     └── src                <- Source code for use in this project.
         ├── __init__.py    <- Makes src a Python module
